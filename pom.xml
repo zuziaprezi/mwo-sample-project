@@ -7,9 +7,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <groupId>pl.edu.agh.mwo</groupId>
 <artifactId>mwo-sample-project</artifactId>
 <version>1.0-SNAPSHOT</version>
-<name>mwo-sample-project</name>
+    <packaging>pom</packaging>
+    <name>mwo-sample-project</name>
 <url>http://project.mwo.agh.edu.pl</url>
-<properties>
+    <modules>
+        <module>src</module>
+    </modules>
+    <properties>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 <maven.compiler.release>11</maven.compiler.release>
 </properties>
