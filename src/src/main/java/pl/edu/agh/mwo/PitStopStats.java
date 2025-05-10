@@ -1,6 +1,8 @@
 package pl.edu.agh.mwo;
 
-import org.example.model.PitStop;
+
+
+import org.example.src.PitStop;
 
 import java.util.Comparator;
 import java.util.List;

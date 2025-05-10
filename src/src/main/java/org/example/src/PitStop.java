@@ -5,7 +5,7 @@ public class PitStop {
     int lap_number;
     int driver_number;
 
-    public double getPit_duration() {
+    public double getPitDuration() {
         return pit_duration;
     }
 
@@ -13,7 +13,7 @@ public class PitStop {
         this.pit_duration = pit_duration;
     }
 
-    public int getLap_number() {
+    public int getLapNumber() {
         return lap_number;
     }
 
